@@ -73,3 +73,4 @@ from PortfolioProjects..covidDeaths d join PortfolioProjects..covidVax v
 	on d.location = v.location and d.date = v.date
 where d.continent is not null
 --order by 2,3
+
